@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carlos Manrique Enguita · Software y otras aficiones</title>
+  <meta name="description" content="Soy Carlos Manrique Enguita, ingeniero de software en Gijón. Aquí comparto mi trabajo, mi música y algunas de las historias que me acompañan.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23075ea7%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20text-anchor%3D%22middle%22%20font-size%3D%2236%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20fill%3D%22white%22%3Em%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="assets/js/tema.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header>
+    <a href="index.html" aria-label="Carlos Manrique, inicio">manrique<span>.</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="shrek.html">Shrek</a></li>
+        <li><a href="piraguismo.html">Piragüismo</a></li>
+        <li><a href="soda-stereo.html">Soda Stereo</a></li>
+        <li><a href="dotnet.html">C# y .NET</a></li>
+        <li><a href="cabo-norte.html">Cabo Norte</a></li>
+      </ul>
+    </nav>
+    <label id="control-tema" hidden for="tema">
+      Tema
+      <select id="tema" name="tema"><option value="sistema">Sistema</option><option value="claro">Claro</option><option value="oscuro">Oscuro</option></select>
+    </label>
+  </header>
+  <main id="contenido">
+    <header aria-labelledby="presentacion">
+      <div>
+        <p class="etiqueta">Gijón, Asturias / Ingeniero de software</p>
+        <h1 id="presentacion">Carlos <span>Manrique Enguita.</span></h1>
+        <p class="entradilla">Trabajo con software. Fuera de la pantalla, me acompañan el rock, los recuerdos del agua y las ganas de salir a la carretera.</p>
+        <p>Soy desarrollador full stack en Futuver desde 2020. Me gusta entender los problemas y dejar el código un poco más claro de como lo encontré.</p>
+        <p class="enlaces-linea">
+          <a href="#intereses">Mis cinco aficiones</a>
+          <a href="#contacto">Hablemos</a>
+        </p>
+      </div>
+      <figure>
+        <img src="assets/imagenes/carlos-manrique.jpg" alt="Carlos Manrique Enguita" width="460" height="460" fetchpriority="high">
+        <figcaption><span>Carlos Manrique</span><span>Gijón · Asturias</span></figcaption>
+      </figure>
+    </header>
+    <section aria-labelledby="perfil">
+      <header>
+        <div>
+          <p class="etiqueta">Un poco sobre mí</p>
+          <h2 id="perfil">Entender. Construir.<br>Seguir aprendiendo.</h2>
+        </div>
+        <p>Mi trabajo gira alrededor de aplicaciones de negocio, firma digital e integración de sistemas. También me interesan la arquitectura de software, las pruebas y la modernización de aplicaciones que ya están en uso.</p>
+      </header>
+      <ul class="perfil-grid">
+        <li aria-labelledby="trabajo">
+          <span>01 / Trabajo</span>
+          <h3 id="trabajo">Software que se utiliza</h3>
+          <p>En Futuver desarrollo aplicaciones para administraciones públicas y organizaciones privadas. C# y .NET forman parte de mi día a día, junto con otras tecnologías.</p>
+        </li>
+        <li aria-labelledby="formacion">
+          <span>02 / Formación</span>
+          <h3 id="formacion">Universidad de Oviedo</h3>
+          <p>Mi formación está vinculada a la Universidad de Oviedo. Cursé el grado en modalidad bilingüe y continúo mi formación de posgrado en informática.</p>
+        </li>
+        <li aria-labelledby="proyecto">
+          <span>03 / Un proyecto</span>
+          <h3 id="proyecto">Firma biométrica</h3>
+          <p>Mi trabajo de fin de grado fue una plataforma de firma electrónica biométrica para PDF. Un proyecto en el que se encontraron el desarrollo de software y la seguridad.</p>
+          <a href="dotnet.html#proyecto">Más sobre este proyecto</a>
+        </li>
+      </ul>
+    </section>
+    <section id="intereses" aria-labelledby="titulo-intereses">
+      <header>
+        <div>
+          <p class="etiqueta">Más allá del currículum</p>
+          <h2 id="titulo-intereses">Cinco formas<br>de conocerme.</h2>
+        </div>
+        <p>Una película que me lleva a la infancia, un deporte que practiqué, música que admiro, mi herramienta de trabajo y un viaje que todavía está por llegar.</p>
+      </header>
+      <ol class="intereses">
+        <li>
+          <span aria-hidden="true">01</span>
+          <h3><a href="shrek.html">Shrek</a></h3>
+          <p>Mi primera película en el cine, con mi hermana mayor.</p>
+          <span>Cine</span>
+        </li>
+        <li>
+          <span aria-hidden="true">02</span>
+          <h3><a href="piraguismo.html">Piragüismo</a></h3>
+          <p>Del K1 al K4. Una etapa de equipo y competición.</p>
+          <span>Deporte</span>
+        </li>
+        <li>
+          <span aria-hidden="true">03</span>
+          <h3><a href="soda-stereo.html">Soda Stereo</a></h3>
+          <p>Cerati, el arquitecto del sonido.</p>
+          <span>Música</span>
+        </li>
+        <li>
+          <span aria-hidden="true">04</span>
+          <h3><a href="dotnet.html">C# y .NET</a></h3>
+          <p>Un stack flexible, abierto y parte de mi trabajo.</p>
+          <span>Tecnología</span>
+        </li>
+        <li>
+          <span aria-hidden="true">05</span>
+          <h3><a href="cabo-norte.html">Cabo Norte</a></h3>
+          <p>De Gijón hacia el norte, con el viaje aún por escribir.</p>
+          <span>Viajes</span>
+        </li>
+      </ol>
+    </section>
+    <section class="contacto" id="contacto" aria-labelledby="titulo-contacto">
+      <header>
+        <p class="etiqueta">Seguimos en contacto</p>
+        <h2 id="titulo-contacto">Puedes escribirme.</h2>
+      </header>
+      <address>
+        <a href="mailto:uo258425@uniovi.es">uo258425@uniovi.es</a>
+        <p class="enlaces-linea">
+          <a href="https://github.com/carlosmanri">GitHub</a>
+          <a href="https://www.linkedin.com/in/carlos-manrique-enguita/">LinkedIn</a>
+          <a href="https://manrique.dev/">Mi web profesional</a>
+        </p>
+      </address>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Carlos Manrique Enguita</p>
+    <p>Hecho desde Gijón.</p>
+  </footer>
+</body>
+</html>

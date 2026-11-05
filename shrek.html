@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shrek · Carlos Manrique Enguita</title>
+  <meta name="description" content="Hay películas que te gustan por lo que cuentan. Shrek también me gusta por el recuerdo de cuando mi hermana mayor me llevó al cine.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23075ea7%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20text-anchor%3D%22middle%22%20font-size%3D%2236%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20fill%3D%22white%22%3Em%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="assets/js/tema.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header>
+    <a href="index.html" aria-label="Carlos Manrique, inicio">manrique<span>.</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="shrek.html" aria-current="page">Shrek</a></li>
+        <li><a href="piraguismo.html">Piragüismo</a></li>
+        <li><a href="soda-stereo.html">Soda Stereo</a></li>
+        <li><a href="dotnet.html">C# y .NET</a></li>
+        <li><a href="cabo-norte.html">Cabo Norte</a></li>
+      </ul>
+    </nav>
+    <label id="control-tema" hidden for="tema">
+      Tema
+      <select id="tema" name="tema"><option value="sistema">Sistema</option><option value="claro">Claro</option><option value="oscuro">Oscuro</option></select>
+    </label>
+  </header>
+  <main id="contenido">
+    <article>
+      <header>
+        <h1>La primera vez<br>en el cine.</h1>
+        <p class="entradilla">Hay películas que te gustan por lo que cuentan. Shrek también me gusta por el recuerdo de cuando mi hermana mayor me llevó al cine.</p>
+      </header>
+      <section id="recuerdo" aria-labelledby="titulo-recuerdo">
+        <h2 id="titulo-recuerdo">Un recuerdo compartido</h2>
+        <p>Shrek fue la primera película que vi en el cine. Me llevó mi hermana mayor y guardo un recuerdo muy bonito de aquel momento. Ese es el motivo principal por el que ocupa un lugar especial entre mis películas favoritas: para mí está unida a una persona y a una experiencia de la infancia.</p>
+        <p>No necesito reconstruir cada detalle de aquel día para saber lo que significa. Al pensar en la película aparece también ese primer encuentro con el cine, acompañado de mi hermana. El recuerdo y la historia han terminado formando parte de la misma cosa.</p>
+      </section>
+      <section id="pelicula" aria-labelledby="titulo-pelicula">
+        <h2 id="titulo-pelicula">Un cuento con otro protagonista</h2>
+        <p>La película, estrenada en 2001, parte de una idea que cambia el centro de los cuentos tradicionales: el protagonista es un ogro que vive en una ciénaga. A su alrededor aparecen personajes de cuento, un burro que habla y una aventura que juega con lo que esperamos de ese mundo.</p>
+        <p>La aventura lleva a Shrek y a Asno a buscar a la princesa Fiona, mientras el ogro intenta recuperar la tranquilidad de su ciénaga. La historia juega con personajes que parecen familiares y los coloca en situaciones que alteran el cuento que uno esperaba encontrar.</p>
+        <figure>
+          <img src="assets/imagenes/shrek.webp" alt="Cartel de Shrek con Fiona, Shrek, Asno y Lord Farquaad delante de una gran letra S verde" width="1357" height="2000" loading="lazy" decoding="async">
+          <figcaption>Shrek · Cartel de la película.</figcaption>
+        </figure>
+      </section>
+      <section id="significado" aria-labelledby="titulo-significado">
+        <h2 id="titulo-significado">Lo que se queda</h2>
+        <p class="destacado">Mi película favorita también es un recuerdo con mi hermana.</p>
+        <p>Hay aficiones que se explican por una técnica, un estilo o una historia. Otras se entienden mejor a través de las personas con las que las descubrimos. En este caso, mi elección empieza ahí.</p>
+        <p>Por eso Shrek tiene su espacio en esta web. Además de una película, representa una pequeña parte de mi historia personal: la primera visita al cine y un recuerdo que sigue siendo bonito con el paso del tiempo.</p>
+      </section>
+      <section id="musica" aria-labelledby="titulo-musica">
+        <h2 id="titulo-musica">Una canción para volver a Shrek</h2>
+        <p>«All Star», de Smash Mouth, acompaña ese recuerdo de la película. Aquí tiene su propio espacio para escucharla.</p>
+        <figure>
+          <audio controls preload="metadata" aria-label="All Star, de Smash Mouth">
+            <source src="assets/audio/smash-mouth-all-star.mp3" type="audio/mpeg">
+            Tu navegador no admite este reproductor. <a href="assets/audio/smash-mouth-all-star.mp3">Abrir All Star en MP3</a>.
+          </audio>
+          <figcaption>Smash Mouth · All Star · Audio musical, 3 min 56 s.</figcaption>
+        </figure>
+        <!-- Pendiente: alternativa textual revisada del audio musical. -->
+      </section>
+      <footer aria-labelledby="titulo-fuentes">
+        <h2 id="titulo-fuentes">Para seguir explorando</h2>
+        <p>Ficha de la película: <a href="https://www.dreamworks.com/movies/shrek">Shrek en DreamWorks</a>.</p>
+      </footer>
+    </article>
+    <nav aria-label="Siguiente afición">
+      <p>La siguiente afición</p>
+      <a href="piraguismo.html" rel="next">Piragüismo <span aria-hidden="true">→</span></a>
+    </nav>
+  </main>
+  <footer>
+    <p>© 2026 Carlos Manrique Enguita</p>
+    <p>Hecho desde Gijón.</p>
+  </footer>
+</body>
+</html>
